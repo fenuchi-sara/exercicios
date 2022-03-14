@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Cadastro da Liga dos Programadores</h1>
+    </form>
+
+    <form action="/action_page.php" autocomplete="on">
+        <label for="fname">Nome:</label>
+        <input type="text" id="fname" name="fname">
+    </form>
+
+    <form>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password">
+    </form>
+
+    <form>
+        <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+        <input type="date" name="data_nascimento" id="data_nascimento" required>
+        <label for="files">Foto:</label>
+        <input type="file" id="files" name="files" multiple><br><br>
+    </form>
+
+    <form>
+        <label for="cars">Nacionalidade:</label>
+        <select id="cars" name="cars">
+        <option value="brasil">Brasil</option>
+        <option value="china">China</option>
+        <option value="estados unidos">Estados Unidos</option>
+        <option value="suiça">Suiça</option>
+        <p><label>Sexo </label> 
+        <input id="f" type="radio" /> <label for="f"> F</label>
+        <input id="m" type="radio" /> <label for="m"> M</label></p>
+    </form>
+
+    <form>
+        <form id="check">
+        <label><strong>Linguagem que você domina:</strong></label><br><br>
+        <input type="checkbox" id="tecnologia1" name="tecnologia3" value="JavaScript">
+        <label for="tecnologia1"> JavaScript</label>
+        <input type="checkbox" id="tecnologia2" name="tecnologia5" value="C">
+        <label for="tecnologia2"> C</label>
+        <input type="checkbox" id="tecnologia3" name="tecnologia6" value="Python">
+        <label for="tecnologia3"> Python</label>
+        <input type="checkbox" id="tecnologia4" name="tecnologia7" value="Java">
+        <label for="tecnologia4"> Java</label>
+    </form>
+
+    <form action="/action_page.php">
+        <textarea name="message" rows="10" cols="30"> Por que você que ser um programador.</textarea>
+        <br><br>
+        <button type="button" onclick="alert('Hello World!')">Criar </button>
+    </form>
+
+  
+</body>
+</html>
